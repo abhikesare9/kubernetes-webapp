@@ -23,6 +23,29 @@ so I came with the idea that we can manage the kubernetes with the help of websi
 ##### Step1 : 
 first of all we have to launch three ec2 instances on AWS cloud so that we can run our kubernetes cluster there.
 I am going to privode a file which contains how to setup the kubernetes cluster
-After Setting up the control plane the master will look like this
+
 ![alt txt](https://github.com/abhikesare9/kubernetes-webapp/blob/e7911edd994e2f1efffa880081bbe1bb36c2b3eb/images/1.png)
+
+
+After setting the master your controle plane will look like below
+
+![alt txt](https://github.com/abhikesare9/kubernetes-webapp/blob/e7911edd994e2f1efffa880081bbe1bb36c2b3eb/images/2.png)
+
+Similarly, according to the script setup the node and configure the cluster
+
+
+#### Step2 : 
+You have to install the httpd server into your system and copy html,css and js code to /var/www/html
+
+![alt txt](https://github.com/abhikesare9/kubernetes-webapp/blob/main/images/httpd%20install.png)
+![alt txt](https://github.com/abhikesare9/kubernetes-webapp/blob/main/images/copy%20files.png)
+
+#### step 3 :
+you have to copy python files to /var/www/cgi-bin folder of master
+![alt txt](https://github.com/abh6ikesare9/kubernetes-webapp/blob/main/images/backend.png)
+
+
+#### step 4:
+In the final step start the httpd server using command systemctl start httpd your website will be ready at port number 80
+![alt_txt](https://github.com/abhikesare9/kubernetes-webapp/blob/e7911edd994e2f1efffa880081bbe1bb36c2b3eb/images/3.png)
 
