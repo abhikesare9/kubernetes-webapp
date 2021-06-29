@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kubernetes WebApp</title>
+    <link rel="stylesheet" href="main.css">
+    <script src='main.js'></script>
+<body style="background-image: url(k8.jpeg)">
+    <p align="center">
+        <button class="element" onclick="listPods();">List Pods</button> &emsp;
+        <button class="elements" onclick="listDeploy();">List Depolyment</button> &emsp;
+        <button class="Kubernetes">Kubernetes Web App</button> &emsp;
+        <button class="elements" onclick="listSvc();">List services</button> &emsp;
+        <button class="element" onclick="delRes();">Delete all resources</button>
+    </p>
+    <div class="launch-pod">
+        <h3 >Launch Pod</h3>
+        <input name="podname" id="in1" type="text" placeholder="name of the pod" style="width: 80%; height: 9%; margin-bottom:15px"  /> <br><br>
+        <input name="podimage" id="in2" type="text" placeholder="Image name" style="width: 80%; height: 9%; margin-bottom:25px" />
+    	<button  onclick="launchPod();" class="btn">Launch</button>
+    </div>
+
+    <div class="launch-deploy">
+        <h3 >Launch Deployment </h3>
+        <input name="deployname" id="in3" type="text" placeholder="Deployment name" style="width: 80%; height: 9%; margin-bottom:15px"  /> <br><br>
+        <input name="deployimage" id="in4" type="text" placeholder="Image name" style="width: 80%; height: 9%; margin-bottom:15px"  />
+        <button  onclick="launchDeploy();" class="btn">Launch</button>
+    </div>
+
+    <div class="del-pod">
+        <h3 >Delete Pod </h3>
+        <input name="del_podname" id="in5" type="text"  placeholder="name of the pod" style="width: 80%; height: 13%; margin-bottom:15px" />  <br><br><br>
+        <button onclick="delPod();" class="btn">Delete</button>
+    </div>
+
+
+    <div class="del-deploy">
+        <h3 >Delete Deployment</h3>
+        <input name="del_deployname" id="in6" type="text" placeholder="Deployment name" style="width: 80%; height: 13%; margin-bottom:15px"   /> <br><br><br>
+        <button onclick="delDeploy();" class="btn">Delete</button>
+    </div>
+
+     <div class="scale-deploy">
+        <h3 >Scale Deployment</h3>
+        <input name="deploy_name" id="in7" type="text" placeholder="Deployment name" style="width: 80%; height: 9%; margin-bottom:15px" /> <br><br>
+        <input name="replicas" id="in8" type="number" placeholder="Replication count" style="width: 80%; height: 9%; margin-bottom:15px"  /> <br><br>
+        <button  onclick="scaleDeploy();" class="btn">Scale</button>
+    </div>
+
+    <div class="expose-deploy">
+        <h3 >Expose Deployment</h3>
+        <input name="expose_deployname" id="in9" type="text" placeholder="Deployment name" style="width: 80%; height: 13%; margin-bottom:15px"  /> <br><br><br>
+        <button  onclick="exposeDeploy();" class="btn">Expose</button>
+    </div>
+
+    <pre>
+        <h3>
+        <div class="output-screen" id="out">K8s The Game of Pods</div>
+        </h3>
+    </pre>
+
+
+
+</body>
+</html>

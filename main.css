@@ -1,0 +1,186 @@
+.Kubernetes{
+
+    border: 4px solid #000000;
+    color: #ffffff;
+    font-weight:bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:none;
+    box-shadow: #EBF4FA;
+    border-radius:5px;
+    background-color:#0174df;
+    display: inline-block;
+    font-size: 16px;
+    margin:4px 2px;
+    transition-duration:0.4s;
+    cursor:pointer;
+  }
+  .Kubernetes:hover {
+    background-color: white;
+    color: #004ffa;
+  }
+.element{
+
+    border: 4px solid #000000;
+    color: #000000;
+    font-weight:bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:none;
+    box-shadow: 4px 2px 5px 1px ##EBF4FA;
+    border-radius:10px;
+    background-color:#E5E4E2;
+    display: inline-block;
+    font-size: 16px;
+    margin:4px 2px;
+    transition-duration:0.4s;
+    cursor:pointer;
+  }
+  .element:hover {
+    background-color: white;
+    color: #004ffa;
+  }
+  .elements{
+
+    border: 4px solid #000000;
+    color: #000000;
+    font-weight:bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:none;
+    box-shadow: 4px 2px 5px 1px #EBF4FA;
+    border-radius:10px;
+    background-color:#E5E4E2;
+    display: inline-block;
+    font-size: 16px;
+    margin:4px 2px;
+    transition-duration:0.4s;
+    cursor:pointer;
+  }
+  .elements:hover {
+    background-color: white;
+    color: #004ffa;
+}
+.output-screen{
+    position: absolute;
+    float: bottom;
+    left: 7%;
+    top: 18%;
+    margin-left: 225px;
+    width: 700px;
+    height: 300px;
+    background: #ffffff;
+    border-radius:15px;
+    overflow-y: scroll;
+    color:#000000;
+    box-shadow: 4px 4px 7px 2px #EBF4FA;
+    border: 4px solid #ADD8E6;
+    text-align: center;
+   }
+
+.launch-pod{
+    position: absolute;
+    left: 1%;
+    border-radius: 15px;
+    bottom: 10%;
+    top: 20%;
+    margin-left: 10px;
+    width: 200px;
+    height: 250px;
+    background: #E5E4E2;
+    box-shadow: 4px 4px 7px 2px #EBF4FA;
+    border: 2px solid black;
+    text-align: center;
+}
+.btn {
+  color: #000000;
+  font-weight:bold;
+  background: #ADD8E6;
+  width:120px;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 4px 2px 5px 1px #EBF4FA;
+  font-size: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.4s;
+  overflow: hidden;
+  left: 20%;
+  bottom: 7%;
+  text-decoration:none;
+  position: absolute;
+}
+
+.launch-deploy{
+  position: absolute;
+  left: 80%;
+  border-radius: 15px;
+  bottom: 10%;
+  top: 16%;
+  margin-left: 10px;
+  width: 220px;
+  height: 250px;
+  background: #E5E4E2;
+  box-shadow: 4px 4px 7px 2px #EBF4FA;
+  border: 2px solid black;
+  text-align: center;
+}
+.del-pod{
+  position: absolute;
+  left: 1%;
+  border-radius: 15px;
+  bottom: 10%;
+  top: 68%;
+  margin-left: 10px;
+  width: 200px;
+  height: 160px;
+  background:#E5E4E2;
+  box-shadow: 4px 4px 7px 2px #EBF4FA;
+  border: 2px solid black;
+  text-align: center;
+}
+.scale-deploy{
+  position: absolute;
+  left: 80%;
+  bottom: 10%;
+  border-radius: 15px;
+  top: 60%;
+  margin-left: 10px;
+  width: 220px;
+  height: 230px;
+  background: #E5E4E2;
+  box-shadow: 4px 4px 7px 2px #EBF4FA;
+  border: 2px solid black;
+  text-align: center;
+
+}
+
+.del-deploy{
+  position: absolute;
+  border-radius: 15px;
+  left: 50%;
+  bottom: 10%;
+  top: 72%;
+  margin-left: 10px;
+  width: 220px;
+  height: 160px;
+  background: #E5E4E2;
+  box-shadow: 4px 4px 7px 2px #EBF4FA;
+  border: 2px solid black;
+  text-align: center;
+}
+.expose-deploy {
+  position: absolute;
+  border-radius: 15px;
+  left: 30%;
+  bottom: 10%;
+  top: 72%;
+  margin-left: 10px;
+  width: 220px;
+  height: 160px;
+  background: #E5E4E2;
+  box-shadow: 4px 4px 7px 2px #EBF4FA;
+  border: 2px solid black;
+  text-align: center;
+}
