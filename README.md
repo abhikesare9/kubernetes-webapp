@@ -21,4 +21,8 @@ so I came with the idea that we can manage the kubernetes with the help of websi
 ### steps
 
 ##### Step1 : 
-first of all we have to launch three ec2 instances on AWS cloud so that we can run our kubernetes cluster there
+first of all we have to launch three ec2 instances on AWS cloud so that we can run our kubernetes cluster there.
+I am going to privode a file which contains how to setup the kubernetes cluster
+After Setting up the control plane the master will look like this
+[alt txt](https://github.com/abhikesare9/kubernetes-webapp/blob/e7911edd994e2f1efffa880081bbe1bb36c2b3eb/images/1.png, "master image")
+
