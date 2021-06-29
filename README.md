@@ -41,8 +41,8 @@ You have to install the httpd server into your system and copy html,css and js c
 ![alt txt](https://github.com/abhikesare9/kubernetes-webapp/blob/main/images/copy%20files.png)
 
 #### step 3 :
-you have to copy python files to /var/www/cgi-bin folder of master
-![alt txt](https://github.com/abh6ikesare9/kubernetes-webapp/blob/main/images/backend.png)
+you have to copy python files to /var/www/cgi-bin folder of master and make all files executable
+![alt txt](https://github.com/abhikesare9/kubernetes-webapp/blob/main/images/backend.png)
 
 
 #### step 4:
