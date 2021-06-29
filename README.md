@@ -47,5 +47,5 @@ you have to copy python files to /var/www/cgi-bin folder of master
 
 #### step 4:
 In the final step start the httpd server using command systemctl start httpd your website will be ready at port number 80
-![alt_txt](https://github.com/abhikesare9/kubernetes-webapp/blob/e7911edd994e2f1efffa880081bbe1bb36c2b3eb/images/3.png)
+![alt_txt](https://github.com/abhikesare9/kubernetes-webapp/blob/main/images/webapp.png)
 
